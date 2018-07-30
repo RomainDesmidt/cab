@@ -2,17 +2,22 @@
 #Banner
 %>
 <header>
-  <div class="container-flex">
-    <div class="text-left" id="logo">
+  <div class="container-flex" id="header-flex">
+    <div class="text-left item-grow" id="logo">
   <%=
     image_tag("logo_cab.png", class: "logo-image")
   %>
     </div>
-    <div class="item-grow item-desktop"></div>
+    <!-- <div class="item-grow item-desktop"></div> -->
     <div class="item-desktop">Accueil</div>
     <div class="item-desktop">FAQ</div>
     <div class="item-desktop">Contact</div>
     <div class="item-desktop">Prenez RDV</div>
+    <div>
+ <%=
+    image_tag("but_access.png", class: "but-access")
+  %>
+    </div>
   </div>
 </header>
 

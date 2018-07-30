@@ -120,6 +120,10 @@ li {
   flex-direction: column;
 }
 
+#header-flex {
+  flex-direction: row;
+}
+
 #footer-flex {
   flex-direction: row;
 }
@@ -154,6 +158,10 @@ li {
 }
 
 .logo-image {
-  width: 200px;
+  width: 150px;
 
+}
+
+.but-access {
+  width: 50px;
 }
