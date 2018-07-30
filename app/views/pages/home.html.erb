@@ -1,2 +1,49 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<%
+#Banner
+%>
+<header>
+  <div class="container-flex">
+    <div class="text-left" id="logo">
+    Cabinet de Radiologie
+    Docteur DESMIDT
+    </div>
+    <div class="item-grow item-desktop"></div>
+    <div class="item-desktop">Accueil</div>
+    <div class="item-desktop">FAQ</div>
+    <div class="item-desktop">Contact</div>
+    <div class="item-desktop">Prenez RDV</div>
+  </div>
+</header>
+
+<div class="container-flex" id="no-padding" >
+  <div class="item-deuxtier morepaddingside" id="no-padding">
+  <%=
+    image_tag("img_4527.jpg")
+  %>
+    <span class="item-desktop">
+    Le Dr DESMIDT et son equipe vous accueille dans son cabinet de Sainte Maure de touraine ou il realise des radiographies et echographie, dans un soucis de detail le radiologue effectue des scanners et IRM sur le site Leonard de Vinci a Tours
+    </span>
+  </div>
+
+  <div class="item-untier">
+    <div>le cabinet ouvrira dans 14 minutes environ</div>
+    <div>Horaires d'ouverture</div>
+  </div>
+</div>
+
+<div id="gmap" class="container-flex" id="no-padding">
+  <div class="item-untier" id="no-padding">nous trouver</div>
+  <div class="item-deuxtier" id="no-padding">
+  <%=
+    image_tag("gmap.png")
+  %>
+  </div>
+</div>
+
+<footer>
+  <div id="footer-flex" class="container-flex">
+    <div>2018</div>
+    <div class="item-grow"></div>
+    <div>DESMIDT</div>
+  </div>
+</footer>
