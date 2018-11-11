@@ -20,7 +20,7 @@
 </header>
 
 <div class="container-flex" id="no-padding" >
-  <div class="item-deuxtier morepaddingside" id="no-padding">
+  <div class="item-deuxtier morepaddingside anchor-item-desktop" id="no-padding">
   <%=
     image_tag("img_4527.jpg")
   %>
@@ -32,19 +32,19 @@
   <div class="item-untier">
     <div>Nous sommes le <%= javascript_tag "document.write(j+' '+d+' '+m+' et il est '+h+':'+addmin+min);" %> </div>
     <div><%= javascript_tag "document.write(message);" %> <p id="date-jour"></p>
-<%
-# <form action="mailto:romain.desmidt@gmail.com" method="post" enctype="text/plain">
-# Name:<br>
-# <input type="text" name="name"><br>
-# E-mail:<br>
-# <input type="text" name="mail"><br>
-# Comment:<br>
-# <input type="text" name="comment" size="50"><br><br>
-# <input type="file" name="image" accept="image/*" capture="environment">
-# <input type="submit" value="Send">
-# <input type="reset" value="Reset">
-# </form>
-%>
+
+<form action="mailto:romain.desmidt@gmail.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="file" name="image" accept="image/*" capture="environment">
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+
     </div>
     <div>
 

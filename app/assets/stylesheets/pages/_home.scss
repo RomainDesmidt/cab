@@ -63,11 +63,18 @@ footer {
 
 }
 
+.anchor-item-desktop {
+  position: relative;
+
+}
+
 span {
   position: absolute;
-  left: 10%;
-  top: 20%;
-
+  left: 0%;
+  top: 33%;
+  padding-left: 10px;
+  padding-right: 10px;
+background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -117,7 +124,7 @@ li {
 
 .container-flex {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 #header-flex {
@@ -149,7 +156,7 @@ li {
 
 .item-desktop {
   // visibility: hidden;
-  display: none;
+  display: block;
 
 }
 
@@ -163,5 +170,23 @@ li {
 }
 
 .but-access {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .item-desktop {
+    display: none;
+  }
+
+  .but-access {
   width: 50px;
+  display: block;
+  }
+
+  .container-flex {
+  display: flex;
+  flex-direction: column;
+  }
+
 }
